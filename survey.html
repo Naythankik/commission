@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathaniel</title>
+  </head>
+  <body>
+    <header>
+      <h1>Survey Form</h1>
+      <p>Thank you For Taking Your Time To Give Us FeedBack</p>
+    </header>
+    <section>
+      <form action="" method="post" target="_blank">
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+          />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Enter your age"
+          />
+        </div>
+
+        <div>
+          <label for="role">Select a role that best describes you</label>
+          <select name="role" id="role">
+            <option value="" selected disabled>Select your role</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="fullStack">Full Stack</option>
+          </select>
+        </div>
+        <div>
+          <label for="recommended"
+            >Would You Recommended Our Product To A Friend</label
+          >
+          <input type="radio" name="recommended" value="never" /> Never
+          <input type="radio" name="recommended" value="maybe" /> Maybe
+          <input type="radio" name="recommended" value="likely" /> likely
+          <input type="radio" name="recommended" value="definitely" />
+          Definitely
+        </div>
+
+        <div>
+          <label for="review">Select Things You Liked About Us</label>
+          <input type="checkbox" name="review" value="ui" /> UI
+          <input type="checkbox" name="review" value="features" /> Features
+          <input type="checkbox" name="review" value="services" /> Services
+          <input type="checkbox" name="review" value="simpleness" /> Simpleness
+        </div>
+        <div>
+          <label for="comment">Remarks</label>
+          <textarea
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="Tell us how we can improve"
+          ></textarea>
+        </div>
+        <button name="submit">SEND</button>
+      </form>
+    </section>
+  </body>
+</html>
